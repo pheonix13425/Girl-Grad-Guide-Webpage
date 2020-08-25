@@ -1,0 +1,123 @@
+main h3 {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    font-family: ‘Dancing Script’, cursive;
+    font-weight: bold;
+  position: relative;
+  
+}
+
+#align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.column {
+  float: left;
+  max-width: 25%;
+  margin-bottom: 16px;
+  margin-left: 50px;
+  padding: 0 20px;
+ 
+}
+
+.pic {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.pic img {
+  width: 100%;
+  height: 400px;
+}
+
+.container h2 {
+  position: relative;
+  text-align: center;
+  top: 10px;
+}
+
+.title {
+  color: grey;
+  text-align: center;
+  font-style: italic;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #555;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #ffb4b0;
+  color: black;
+}
+
+#quote {
+	position: inline;
+}
+
+#quote img {
+	border-radius: 200px;
+}
+
+@media screen and (max-width: 700px) {
+  
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+#continuehead {
+    margin: relative;
+    right: 200px;
+  }
+  
+  #guidecontainer {
+    width: 250px;
+    height: 250px; 
+    background: linear-gradient(
+      #fadcfa 10%,
+      50%,
+      #74518f 80%);
+    position: relative;
+    left: 600px;
+    bottom: 20px;
+    border-radius: 360px;
+      }
+  
+  #guidefont {
+    color: white;
+    position: relative;
+    left: 235px;
+    bottom: 150px;
+    font-size: 20px;
+    font-family: artifika;
+  }
+  
+  #cookinghead {
+    bottom: 435px;
+    right: 100px;
+  }
+  
+  .recipecontainer {
+    background-color: #e9ebdd;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    bottom: 350px;
+    left: 250px; 
+    font-size: 27px;
+    box-sizing: border-box;
+    padding: 40px;
+  }
+  

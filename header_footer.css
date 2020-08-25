@@ -1,0 +1,165 @@
+#page {
+    height: auto;
+    background-color: #fff4f0;
+    position: static;
+    bottom: 50px;
+    top: 0px;
+    margin: 0;
+       overflow-x: hidden;
+  }
+  
+  header{
+    text-align: center;
+    font-family: ‘Source Serif Pro’, serif;
+    background-color: #ffb4b0;
+    position: relative;
+    bottom: 50px;
+    height: auto;
+       width: 100%;
+  }
+  
+  h1 {
+    position: static;
+    font-size: 70px;
+      }
+  
+  header svg:hover {
+      animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+      
+  }
+  
+  header h2 {
+    position: relative;
+    bottom: 50px;
+    font-size: 25px;
+       animation: colour-change 8s;
+          animation-iteration-count: infinite;
+       animation-delay: 3s;
+      animation-timing-function: ease-in-out;
+      }
+  
+  @keyframes colour-change {
+      0%{color: black;}
+      25% {color: #ffb4b0;}
+      50% {color: white;}
+   75% {color: #ffb4b0;}
+      100% {color: black;}
+      
+  }
+  
+  svg {
+    color: #f08080;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #ffb4b0;
+    width: 100%;
+    height: auto;
+  }
+
+  .navbar { 
+    position: absolute;
+    top: 130px;
+    background-color: white;
+    height: auto;
+    width: 100%;
+    border-color: #ffb4b0 black; 
+    border-style: solid; 
+    border-width: 0.5px 0.5px 0.5px 0.5px;
+    padding: 5px 50px 5px 50px;
+   
+      }
+   
+  .navbar li {
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    max-width: 16.666667%;
+    border-right: 1px solid #bbb;
+  }
+  
+  .navbar li:last-child {
+    border-right: none;
+  }
+  
+  .navbar a {
+    float: left;
+    position: inline;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  .navbar a:hover {
+    background-color: #aaa;
+    color: white;
+    height: 100%;
+    
+  }
+  
+  .navbar a.active {
+    background-color: #ffb4b0;
+    color: black;
+  }
+  
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .fa:hover {
+      opacity: 0.5;
+  }
+  
+  .inline a {
+    display: inline-block;
+    margin: 0px 10px 12px 20px;
+    font-size: 15px;
+    color: black;
+  }
+  
+  .inline a:hover {
+    color: red;
+  }
+  
+  .extra_space {
+    height: 100px;
+    background-color: #fff4f0;
+  }
+
+  @media screen and (max-width: 700px) {
+  
+    h1 {
+      font-size: 10vw;
+    }
+    
+    h2 {
+      font-size: 4vw;
+      position: relative;
+      bottom: 40px;
+    }
+  }
+  

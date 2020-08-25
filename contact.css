@@ -1,0 +1,46 @@
+h3 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: ‘Dancing Script’, cursive;
+    font-weight: bold;
+    position: relative;
+    margin: 0px;
+  
+}
+
+input[type=text], textarea {
+  width: 100%; 
+  padding: 20px;
+  border: 0.5px groove #555;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 10px 10px 20px 5px;
+  resize: vertical;
+  overflow-wrap: break-word;
+  justify-content: center;
+}
+
+input[type=submit] {
+  background-color: #555;
+  color: white;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ffb4b0;
+  color: black;
+}
+
+.contact {
+  border-radius: 20px;
+  padding: 50px;
+  font-family: ‘Source Serif Pro’, serif;
+  font-size: 25px;
+  
+}
+
+

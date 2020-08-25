@@ -1,0 +1,31 @@
+.aligncenter {
+    text-align: center;
+}
+
+main h3 {
+    text-align: center;
+    color: black;
+    background-color: #fff4f0;
+    font-size: 35px;
+    font-family: ‘Dancing Script’, cursive;
+    font-weight: bold;
+    position: relative; 
+}
+
+h4 {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-family: ‘Dancing Script’, cursive;
+    font-weight: bold;
+    position: flex;
+    margin: 0px;
+  
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
